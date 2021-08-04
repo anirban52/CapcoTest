@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Runner TestNG Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="87.130">
+  <properties />
+
+
+      <testcase name="runScenario" time="24.476" classname="Runner.TestngRunner" />
+      <testcase name="runScenario" time="13.898" classname="Runner.TestngRunner" />
+      <testcase name="runScenario" time="29.717" classname="Runner.TestngRunner" />
+      <testcase name="runScenario" time="19.039" classname="Runner.TestngRunner" />
+
+</testsuite>

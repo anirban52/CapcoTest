@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 95.916 s <<< FAILURE! - in TestSuite
+Runner.TestRunner.runScenario["Check the Contact Link", "Optional[Test on Dashboard page]"](1)  Time elapsed: 33.876 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (bc5b2fb7d78c46063daa754d73b18404)] -> xpath: //input[@name='email']] (tried for 20 second(s) with 500 milliseconds interval)
+	at Runner.TestRunner.runScenario(TestRunner.java:54)
+
+Runner.TestRunner.runScenario["Check the Home button", "Optional[Test on Dashboard page]"](2)  Time elapsed: 34.697 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (3b5348d4043fe605897fb60c8cc3abf4)] -> xpath: //input[@name='email']] (tried for 20 second(s) with 500 milliseconds interval)
+	at Runner.TestRunner.runScenario(TestRunner.java:54)
+
+Runner.TestRunner.runScenario["Create a new contact", "Optional[Test on Contact Feature]"](3)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (9252d9e10cf2c23cdf84c1bb004ab38f)] -> xpath: //input[@name='email']] (tried for 20 second(s) with 500 milliseconds interval)
+	at Runner.TestRunner.runScenario(TestRunner.java:54)
+

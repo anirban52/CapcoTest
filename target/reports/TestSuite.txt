@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 101.42 s <<< FAILURE! - in TestSuite
+Runner.ContactRunner.runScenario["Create a new contact", "Optional[Test on Contact Feature]"](1)  Time elapsed: 17.107 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: input[name='first_name']' (tried for 10 second(s) with 500 milliseconds interval)
+	at Runner.ContactRunner.runScenario(ContactRunner.java:55)
+

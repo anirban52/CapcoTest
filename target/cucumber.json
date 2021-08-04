@@ -1,0 +1,417 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-04T06:33:33.452Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9744000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.launchDriver()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Create a new Shopping List and Add Item",
+        "description": "",
+        "id": "shopping-list-creation-in-openintent;create-a-new-shopping-list-and-add-item;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2603000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User selected the correct Layout",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_selected_the_correct_layout()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1719000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on hamberger menu",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_clicks_on_hamberger_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1980000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects new List",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_selects_new_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 613000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user provides the name of the new List \"List\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"List\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_provides_the_name_of_the_new_list(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 710000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Ok Button",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_clicks_on_ok_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6420000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user adds \"Bread\" \"Butter\" and \"Sugar\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bread\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Butter\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Sugar\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_adds_and_in_the_list(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user validates the count of the added items \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_validates_the_count_of_the_added_items(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects Item \"Butter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Butter\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_selects_item(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1291000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user removes one item",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_removes_one_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user validates the count is reduced \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_validates_the_count_is_reduced(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-04T06:34:00.141Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11221000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.launchDriver()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "User creates two lists and validate the number of lists added",
+        "description": "",
+        "id": "shopping-list-creation-in-openintent;user-creates-two-lists-and-validate-the-number-of-lists-added;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2122000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1014000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User selected the correct Layout",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_selected_the_correct_layout()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1675000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on hamberger menu",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_clicks_on_hamberger_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2051000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects new List",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_selects_new_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user provides the name of the new List \"List1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"List1\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_provides_the_name_of_the_new_list(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 605000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on Ok Button",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_clicks_on_ok_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6020000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user adds \"Bread\" \"Butter\" and \"Sugar\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bread\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Butter\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Sugar\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_adds_and_in_the_list(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks on hamberger menu",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_clicks_on_hamberger_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2527000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user selects new List",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_selects_new_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 755000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user provides the name of the new List \"List2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"List2\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_provides_the_name_of_the_new_list(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 683000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on Ok Button",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_clicks_on_ok_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1302000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on hamberger menu",
+            "match": {
+              "location": "StepDefinitions.CreateListSteps.user_clicks_on_hamberger_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1149000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user validates \"List1\" \"List2\" lists are added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"List1\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"List2\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.CreateListSteps.user_validates_lists_are_added(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping List creation in OpenIntent",
+    "description": "",
+    "id": "shopping-list-creation-in-openintent",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/CreateList.feature",
+    "tags": []
+  }
+]

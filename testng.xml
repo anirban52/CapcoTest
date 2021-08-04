@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cucumber with TestNG" verbose="1" parallel="tests" thread-count="2" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <!--<groups>-->
+        <!--<run>-->
+            <!--<include name="cucumber"></include>-->
+        <!--</run>-->
+    <!--</groups>-->
+    <test name="Runner TestNG Test" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="Runner.TestngRunner"></class>
+        </classes>
+    </test>
+</suite>

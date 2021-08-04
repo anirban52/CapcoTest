@@ -1,0 +1,36 @@
+INFO    2021-07-20 20:38:20,489 [TestNG-tests-1] Runner.TestngRunner  - elements are visible on login page
+INFO    2021-07-20 20:42:12,877 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-20 20:42:14,379 [TestNG-tests-2] Runner.ContactRunner  - username and password entered successfuly
+INFO    2021-07-20 20:42:17,275 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-20 20:42:17,719 [TestNG-tests-2] Runner.ContactRunner  - User is navigated to Homepage successfully
+INFO    2021-07-20 20:42:19,162 [TestNG-tests-2] Runner.ContactRunner  - Contact page is visible successfully
+INFO    2021-07-20 20:42:38,675 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-20 20:42:40,322 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-20 20:42:41,542 [TestNG-tests-1] Runner.TestngRunner  - Contact page is visible successfully
+INFO    2021-07-20 20:42:59,452 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-20 20:43:02,086 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:08:50,805 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-26 20:08:50,987 [TestNG-tests-2] Runner.ContactRunner  - username and password entered successfuly
+INFO    2021-07-26 20:08:53,860 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:08:54,539 [TestNG-tests-2] Runner.ContactRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:08:55,454 [TestNG-tests-2] Runner.ContactRunner  - Contact page is visible successfully
+INFO    2021-07-26 20:09:15,084 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-26 20:09:16,701 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:09:17,504 [TestNG-tests-1] Runner.TestngRunner  - Contact page is visible successfully
+INFO    2021-07-26 20:09:38,472 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-26 20:09:40,881 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:09:58,501 [TestNG-tests-1] Runner.TestngRunner  - elements are visible on login page
+INFO    2021-07-26 20:19:06,429 [TestNG-tests-2] Runner.ContactRunner  - username and password entered successfuly
+INFO    2021-07-26 20:19:08,445 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-26 20:19:09,704 [TestNG-tests-2] Runner.ContactRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:19:10,297 [TestNG-tests-2] Runner.ContactRunner  - Contact page is visible successfully
+INFO    2021-07-26 20:19:11,556 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:19:28,774 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-26 20:19:31,580 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+WARN    2021-07-26 20:19:31,756 [TestNG-tests-2] org.apache.pdfbox.pdmodel.font.FileSystemFontProvider  - New fonts found, font cache will be re-built
+WARN    2021-07-26 20:19:31,757 [TestNG-tests-2] org.apache.pdfbox.pdmodel.font.FileSystemFontProvider  - Building on-disk font cache, this may take a while
+INFO    2021-07-26 20:19:32,317 [TestNG-tests-1] Runner.TestngRunner  - Contact page is visible successfully
+WARN    2021-07-26 20:19:35,118 [TestNG-tests-2] org.apache.pdfbox.pdmodel.font.FileSystemFontProvider  - Finished building on-disk font cache, found 768 fonts
+INFO    2021-07-26 20:19:57,755 [TestNG-tests-1] Runner.TestngRunner  - username and password entered successfuly
+INFO    2021-07-26 20:19:59,285 [TestNG-tests-1] Runner.TestngRunner  - User is navigated to Homepage successfully
+INFO    2021-07-26 20:20:15,078 [TestNG-tests-1] Runner.TestngRunner  - elements are visible on login page
